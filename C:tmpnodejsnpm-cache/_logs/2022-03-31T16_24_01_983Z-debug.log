@@ -1,0 +1,676 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   'http-server'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v14.17.3
+4 verbose npm-session d75cfc8de40ab0ea
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/http-server 214ms
+8 http fetch GET 200 https://registry.npmjs.org/http-server/-/http-server-14.1.0.tgz 96ms
+9 silly pacote tag manifest for http-server@latest fetched in 341ms
+10 timing stage:loadCurrentTree Completed in 365ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule http-server@14.1.0 checking installable status
+18 http fetch GET 200 https://registry.npmjs.org/opener 220ms
+19 http fetch GET 200 https://registry.npmjs.org/basic-auth 239ms
+20 http fetch GET 200 https://registry.npmjs.org/minimist 235ms
+21 http fetch GET 304 https://registry.npmjs.org/http-proxy 250ms (from cache)
+22 silly pacote range manifest for http-proxy@^1.18.1 fetched in 300ms
+23 silly resolveWithNewModule http-proxy@1.18.1 checking installable status
+24 http fetch GET 304 https://registry.npmjs.org/mime 468ms (from cache)
+25 http fetch GET 304 https://registry.npmjs.org/he 476ms (from cache)
+26 silly pacote range manifest for he@^1.2.0 fetched in 484ms
+27 silly resolveWithNewModule he@1.2.0 checking installable status
+28 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 32ms (from cache)
+29 http fetch GET 200 https://registry.npmjs.org/basic-auth/-/basic-auth-2.0.1.tgz 268ms
+30 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz 261ms
+31 http fetch GET 200 https://registry.npmjs.org/opener/-/opener-1.5.2.tgz 277ms
+32 http fetch GET 304 https://registry.npmjs.org/portfinder 506ms (from cache)
+33 silly pacote range manifest for portfinder@^1.0.28 fetched in 512ms
+34 silly resolveWithNewModule portfinder@1.0.28 checking installable status
+35 silly pacote range manifest for mime@^1.6.0 fetched in 524ms
+36 silly resolveWithNewModule mime@1.6.0 checking installable status
+37 silly pacote range manifest for basic-auth@^2.0.1 fetched in 536ms
+38 silly resolveWithNewModule basic-auth@2.0.1 checking installable status
+39 silly pacote range manifest for opener@^1.5.1 fetched in 521ms
+40 silly resolveWithNewModule opener@1.5.2 checking installable status
+41 silly pacote range manifest for minimist@^1.2.5 fetched in 522ms
+42 silly resolveWithNewModule minimist@1.2.6 checking installable status
+43 http fetch GET 200 https://registry.npmjs.org/url-join 41ms
+44 http fetch GET 200 https://registry.npmjs.org/url-join/-/url-join-4.0.1.tgz 62ms
+45 silly pacote range manifest for url-join@^4.0.1 fetched in 114ms
+46 silly resolveWithNewModule url-join@4.0.1 checking installable status
+47 http fetch GET 200 https://registry.npmjs.org/corser 944ms
+48 http fetch GET 200 https://registry.npmjs.org/chalk 1058ms
+49 http fetch GET 200 https://registry.npmjs.org/corser/-/corser-2.0.1.tgz 114ms
+50 silly pacote range manifest for chalk@^4.1.2 fetched in 1066ms
+51 silly resolveWithNewModule chalk@4.1.2 checking installable status
+52 http fetch GET 304 https://registry.npmjs.org/html-encoding-sniffer 1069ms (from cache)
+53 silly pacote range manifest for corser@^2.0.1 fetched in 1079ms
+54 silly resolveWithNewModule corser@2.0.1 checking installable status
+55 http fetch GET 200 https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-3.0.0.tgz 55ms
+56 silly pacote range manifest for html-encoding-sniffer@^3.0.0 fetched in 1132ms
+57 silly resolveWithNewModule html-encoding-sniffer@3.0.0 checking installable status
+58 http fetch GET 200 https://registry.npmjs.org/union 865ms
+59 http fetch GET 200 https://registry.npmjs.org/union/-/union-0.5.0.tgz 42ms
+60 silly pacote range manifest for union@~0.5.0 fetched in 916ms
+61 silly resolveWithNewModule union@0.5.0 checking installable status
+62 http fetch GET 200 https://registry.npmjs.org/secure-compare 1090ms
+63 http fetch GET 200 https://registry.npmjs.org/secure-compare/-/secure-compare-3.0.1.tgz 57ms
+64 silly pacote version manifest for secure-compare@3.0.1 fetched in 1176ms
+65 silly resolveWithNewModule secure-compare@3.0.1 checking installable status
+66 http fetch GET 304 https://registry.npmjs.org/safe-buffer 89ms (from cache)
+67 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 6ms (from cache)
+68 silly pacote version manifest for safe-buffer@5.1.2 fetched in 103ms
+69 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+70 http fetch GET 200 https://registry.npmjs.org/supports-color 113ms
+71 silly pacote range manifest for supports-color@^7.1.0 fetched in 119ms
+72 silly resolveWithNewModule supports-color@7.2.0 checking installable status
+73 http fetch GET 304 https://registry.npmjs.org/ansi-styles 884ms (from cache)
+74 silly pacote range manifest for ansi-styles@^4.1.0 fetched in 890ms
+75 silly resolveWithNewModule ansi-styles@4.3.0 checking installable status
+76 http fetch GET 304 https://registry.npmjs.org/color-convert 74ms (from cache)
+77 silly pacote range manifest for color-convert@^2.0.1 fetched in 78ms
+78 silly resolveWithNewModule color-convert@2.0.1 checking installable status
+79 http fetch GET 304 https://registry.npmjs.org/color-name 59ms (from cache)
+80 silly pacote range manifest for color-name@~1.1.4 fetched in 64ms
+81 silly resolveWithNewModule color-name@1.1.4 checking installable status
+82 http fetch GET 304 https://registry.npmjs.org/has-flag 912ms (from cache)
+83 silly pacote range manifest for has-flag@^4.0.0 fetched in 914ms
+84 silly resolveWithNewModule has-flag@4.0.0 checking installable status
+85 http fetch GET 304 https://registry.npmjs.org/whatwg-encoding 60ms (from cache)
+86 http fetch GET 200 https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-2.0.0.tgz 96ms
+87 silly pacote range manifest for whatwg-encoding@^2.0.0 fetched in 171ms
+88 silly resolveWithNewModule whatwg-encoding@2.0.0 checking installable status
+89 http fetch GET 304 https://registry.npmjs.org/iconv-lite 63ms (from cache)
+90 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz 12ms (from cache)
+91 silly pacote version manifest for iconv-lite@0.6.3 fetched in 88ms
+92 silly resolveWithNewModule iconv-lite@0.6.3 checking installable status
+93 http fetch GET 304 https://registry.npmjs.org/safer-buffer 52ms (from cache)
+94 silly pacote range manifest for safer-buffer@>= 2.1.2 < 3.0.0 fetched in 56ms
+95 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+96 http fetch GET 304 https://registry.npmjs.org/eventemitter3 73ms (from cache)
+97 http fetch GET 304 https://registry.npmjs.org/follow-redirects 85ms (from cache)
+98 silly pacote range manifest for eventemitter3@^4.0.0 fetched in 102ms
+99 silly resolveWithNewModule eventemitter3@4.0.7 checking installable status
+100 silly pacote range manifest for follow-redirects@^1.0.0 fetched in 102ms
+101 silly resolveWithNewModule follow-redirects@1.14.9 checking installable status
+102 http fetch GET 304 https://registry.npmjs.org/requires-port 109ms (from cache)
+103 silly pacote range manifest for requires-port@^1.0.0 fetched in 111ms
+104 silly resolveWithNewModule requires-port@1.0.0 checking installable status
+105 http fetch GET 200 https://registry.npmjs.org/mkdirp 77ms
+106 http fetch GET 304 https://registry.npmjs.org/debug 90ms (from cache)
+107 http fetch GET 304 https://registry.npmjs.org/async 97ms (from cache)
+108 silly pacote range manifest for async@^2.6.2 fetched in 108ms
+109 silly resolveWithNewModule async@2.6.3 checking installable status
+110 silly pacote range manifest for debug@^3.1.1 fetched in 108ms
+111 silly resolveWithNewModule debug@3.2.7 checking installable status
+112 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz 61ms
+113 silly pacote range manifest for mkdirp@^0.5.5 fetched in 150ms
+114 silly resolveWithNewModule mkdirp@0.5.6 checking installable status
+115 http fetch GET 200 https://registry.npmjs.org/lodash 43ms
+116 silly pacote range manifest for lodash@^4.17.14 fetched in 46ms
+117 silly resolveWithNewModule lodash@4.17.21 checking installable status
+118 http fetch GET 200 https://registry.npmjs.org/ms 920ms
+119 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 9ms (from cache)
+120 silly pacote range manifest for ms@^2.1.1 fetched in 945ms
+121 silly resolveWithNewModule ms@2.1.3 checking installable status
+122 http fetch GET 304 https://registry.npmjs.org/qs 71ms (from cache)
+123 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.10.3.tgz 43ms
+124 silly pacote range manifest for qs@^6.4.0 fetched in 127ms
+125 silly resolveWithNewModule qs@6.10.3 checking installable status
+126 http fetch GET 304 https://registry.npmjs.org/side-channel 917ms (from cache)
+127 silly pacote range manifest for side-channel@^1.0.4 fetched in 924ms
+128 silly resolveWithNewModule side-channel@1.0.4 checking installable status
+129 http fetch GET 304 https://registry.npmjs.org/get-intrinsic 93ms (from cache)
+130 silly pacote range manifest for get-intrinsic@^1.0.2 fetched in 95ms
+131 silly resolveWithNewModule get-intrinsic@1.1.1 checking installable status
+132 http fetch GET 304 https://registry.npmjs.org/call-bind 945ms (from cache)
+133 silly pacote range manifest for call-bind@^1.0.0 fetched in 948ms
+134 silly resolveWithNewModule call-bind@1.0.2 checking installable status
+135 http fetch GET 304 https://registry.npmjs.org/object-inspect 976ms (from cache)
+136 silly pacote range manifest for object-inspect@^1.9.0 fetched in 983ms
+137 silly resolveWithNewModule object-inspect@1.12.0 checking installable status
+138 http fetch GET 304 https://registry.npmjs.org/function-bind 49ms (from cache)
+139 silly pacote range manifest for function-bind@^1.1.1 fetched in 51ms
+140 silly resolveWithNewModule function-bind@1.1.1 checking installable status
+141 http fetch GET 304 https://registry.npmjs.org/has 120ms (from cache)
+142 http fetch GET 304 https://registry.npmjs.org/has-symbols 120ms (from cache)
+143 silly pacote range manifest for has@^1.0.3 fetched in 123ms
+144 silly resolveWithNewModule has@1.0.3 checking installable status
+145 silly pacote range manifest for has-symbols@^1.0.1 fetched in 123ms
+146 silly resolveWithNewModule has-symbols@1.0.3 checking installable status
+147 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 7452ms
+148 timing stage:loadIdealTree Completed in 7474ms
+149 silly currentTree lib
+150 silly idealTree lib
+150 silly idealTree └─┬ http-server@14.1.0
+150 silly idealTree   ├── ansi-styles@4.3.0
+150 silly idealTree   ├── async@2.6.3
+150 silly idealTree   ├── basic-auth@2.0.1
+150 silly idealTree   ├── call-bind@1.0.2
+150 silly idealTree   ├── chalk@4.1.2
+150 silly idealTree   ├── color-convert@2.0.1
+150 silly idealTree   ├── color-name@1.1.4
+150 silly idealTree   ├── corser@2.0.1
+150 silly idealTree   ├── debug@3.2.7
+150 silly idealTree   ├── eventemitter3@4.0.7
+150 silly idealTree   ├── follow-redirects@1.14.9
+150 silly idealTree   ├── function-bind@1.1.1
+150 silly idealTree   ├── get-intrinsic@1.1.1
+150 silly idealTree   ├── has-flag@4.0.0
+150 silly idealTree   ├── has-symbols@1.0.3
+150 silly idealTree   ├── has@1.0.3
+150 silly idealTree   ├── he@1.2.0
+150 silly idealTree   ├── html-encoding-sniffer@3.0.0
+150 silly idealTree   ├── http-proxy@1.18.1
+150 silly idealTree   ├── iconv-lite@0.6.3
+150 silly idealTree   ├── lodash@4.17.21
+150 silly idealTree   ├── mime@1.6.0
+150 silly idealTree   ├── minimist@1.2.6
+150 silly idealTree   ├── mkdirp@0.5.6
+150 silly idealTree   ├── ms@2.1.3
+150 silly idealTree   ├── object-inspect@1.12.0
+150 silly idealTree   ├── opener@1.5.2
+150 silly idealTree   ├── portfinder@1.0.28
+150 silly idealTree   ├── qs@6.10.3
+150 silly idealTree   ├── requires-port@1.0.0
+150 silly idealTree   ├── safe-buffer@5.1.2
+150 silly idealTree   ├── safer-buffer@2.1.2
+150 silly idealTree   ├── secure-compare@3.0.1
+150 silly idealTree   ├── side-channel@1.0.4
+150 silly idealTree   ├── supports-color@7.2.0
+150 silly idealTree   ├── union@0.5.0
+150 silly idealTree   ├── url-join@4.0.1
+150 silly idealTree   └── whatwg-encoding@2.0.0
+151 silly install generateActionsToTake
+152 timing stage:generateActionsToTake Completed in 14ms
+153 silly diffTrees action count 39
+154 silly diffTrees add color-name@1.1.4
+155 silly diffTrees add color-convert@2.0.1
+156 silly diffTrees add ansi-styles@4.3.0
+157 silly diffTrees add eventemitter3@4.0.7
+158 silly diffTrees add follow-redirects@1.14.9
+159 silly diffTrees add function-bind@1.1.1
+160 silly diffTrees add has@1.0.3
+161 silly diffTrees add has-flag@4.0.0
+162 silly diffTrees add has-symbols@1.0.3
+163 silly diffTrees add get-intrinsic@1.1.1
+164 silly diffTrees add call-bind@1.0.2
+165 silly diffTrees add lodash@4.17.21
+166 silly diffTrees add async@2.6.3
+167 silly diffTrees add minimist@1.2.6
+168 silly diffTrees add mkdirp@0.5.6
+169 silly diffTrees add ms@2.1.3
+170 silly diffTrees add debug@3.2.7
+171 silly diffTrees add object-inspect@1.12.0
+172 silly diffTrees add requires-port@1.0.0
+173 silly diffTrees add safe-buffer@5.1.2
+174 silly diffTrees add safer-buffer@2.1.2
+175 silly diffTrees add iconv-lite@0.6.3
+176 silly diffTrees add side-channel@1.0.4
+177 silly diffTrees add qs@6.10.3
+178 silly diffTrees add supports-color@7.2.0
+179 silly diffTrees add whatwg-encoding@2.0.0
+180 silly diffTrees add basic-auth@2.0.1
+181 silly diffTrees add chalk@4.1.2
+182 silly diffTrees add corser@2.0.1
+183 silly diffTrees add he@1.2.0
+184 silly diffTrees add html-encoding-sniffer@3.0.0
+185 silly diffTrees add http-proxy@1.18.1
+186 silly diffTrees add mime@1.6.0
+187 silly diffTrees add opener@1.5.2
+188 silly diffTrees add portfinder@1.0.28
+189 silly diffTrees add secure-compare@3.0.1
+190 silly diffTrees add union@0.5.0
+191 silly diffTrees add url-join@4.0.1
+192 silly diffTrees add http-server@14.1.0
+193 silly decomposeActions action count 312
+194 silly decomposeActions fetch color-name@1.1.4
+195 silly decomposeActions extract color-name@1.1.4
+196 silly decomposeActions preinstall color-name@1.1.4
+197 silly decomposeActions build color-name@1.1.4
+198 silly decomposeActions install color-name@1.1.4
+199 silly decomposeActions postinstall color-name@1.1.4
+200 silly decomposeActions finalize color-name@1.1.4
+201 silly decomposeActions refresh-package-json color-name@1.1.4
+202 silly decomposeActions fetch color-convert@2.0.1
+203 silly decomposeActions extract color-convert@2.0.1
+204 silly decomposeActions preinstall color-convert@2.0.1
+205 silly decomposeActions build color-convert@2.0.1
+206 silly decomposeActions install color-convert@2.0.1
+207 silly decomposeActions postinstall color-convert@2.0.1
+208 silly decomposeActions finalize color-convert@2.0.1
+209 silly decomposeActions refresh-package-json color-convert@2.0.1
+210 silly decomposeActions fetch ansi-styles@4.3.0
+211 silly decomposeActions extract ansi-styles@4.3.0
+212 silly decomposeActions preinstall ansi-styles@4.3.0
+213 silly decomposeActions build ansi-styles@4.3.0
+214 silly decomposeActions install ansi-styles@4.3.0
+215 silly decomposeActions postinstall ansi-styles@4.3.0
+216 silly decomposeActions finalize ansi-styles@4.3.0
+217 silly decomposeActions refresh-package-json ansi-styles@4.3.0
+218 silly decomposeActions fetch eventemitter3@4.0.7
+219 silly decomposeActions extract eventemitter3@4.0.7
+220 silly decomposeActions preinstall eventemitter3@4.0.7
+221 silly decomposeActions build eventemitter3@4.0.7
+222 silly decomposeActions install eventemitter3@4.0.7
+223 silly decomposeActions postinstall eventemitter3@4.0.7
+224 silly decomposeActions finalize eventemitter3@4.0.7
+225 silly decomposeActions refresh-package-json eventemitter3@4.0.7
+226 silly decomposeActions fetch follow-redirects@1.14.9
+227 silly decomposeActions extract follow-redirects@1.14.9
+228 silly decomposeActions preinstall follow-redirects@1.14.9
+229 silly decomposeActions build follow-redirects@1.14.9
+230 silly decomposeActions install follow-redirects@1.14.9
+231 silly decomposeActions postinstall follow-redirects@1.14.9
+232 silly decomposeActions finalize follow-redirects@1.14.9
+233 silly decomposeActions refresh-package-json follow-redirects@1.14.9
+234 silly decomposeActions fetch function-bind@1.1.1
+235 silly decomposeActions extract function-bind@1.1.1
+236 silly decomposeActions preinstall function-bind@1.1.1
+237 silly decomposeActions build function-bind@1.1.1
+238 silly decomposeActions install function-bind@1.1.1
+239 silly decomposeActions postinstall function-bind@1.1.1
+240 silly decomposeActions finalize function-bind@1.1.1
+241 silly decomposeActions refresh-package-json function-bind@1.1.1
+242 silly decomposeActions fetch has@1.0.3
+243 silly decomposeActions extract has@1.0.3
+244 silly decomposeActions preinstall has@1.0.3
+245 silly decomposeActions build has@1.0.3
+246 silly decomposeActions install has@1.0.3
+247 silly decomposeActions postinstall has@1.0.3
+248 silly decomposeActions finalize has@1.0.3
+249 silly decomposeActions refresh-package-json has@1.0.3
+250 silly decomposeActions fetch has-flag@4.0.0
+251 silly decomposeActions extract has-flag@4.0.0
+252 silly decomposeActions preinstall has-flag@4.0.0
+253 silly decomposeActions build has-flag@4.0.0
+254 silly decomposeActions install has-flag@4.0.0
+255 silly decomposeActions postinstall has-flag@4.0.0
+256 silly decomposeActions finalize has-flag@4.0.0
+257 silly decomposeActions refresh-package-json has-flag@4.0.0
+258 silly decomposeActions fetch has-symbols@1.0.3
+259 silly decomposeActions extract has-symbols@1.0.3
+260 silly decomposeActions preinstall has-symbols@1.0.3
+261 silly decomposeActions build has-symbols@1.0.3
+262 silly decomposeActions install has-symbols@1.0.3
+263 silly decomposeActions postinstall has-symbols@1.0.3
+264 silly decomposeActions finalize has-symbols@1.0.3
+265 silly decomposeActions refresh-package-json has-symbols@1.0.3
+266 silly decomposeActions fetch get-intrinsic@1.1.1
+267 silly decomposeActions extract get-intrinsic@1.1.1
+268 silly decomposeActions preinstall get-intrinsic@1.1.1
+269 silly decomposeActions build get-intrinsic@1.1.1
+270 silly decomposeActions install get-intrinsic@1.1.1
+271 silly decomposeActions postinstall get-intrinsic@1.1.1
+272 silly decomposeActions finalize get-intrinsic@1.1.1
+273 silly decomposeActions refresh-package-json get-intrinsic@1.1.1
+274 silly decomposeActions fetch call-bind@1.0.2
+275 silly decomposeActions extract call-bind@1.0.2
+276 silly decomposeActions preinstall call-bind@1.0.2
+277 silly decomposeActions build call-bind@1.0.2
+278 silly decomposeActions install call-bind@1.0.2
+279 silly decomposeActions postinstall call-bind@1.0.2
+280 silly decomposeActions finalize call-bind@1.0.2
+281 silly decomposeActions refresh-package-json call-bind@1.0.2
+282 silly decomposeActions fetch lodash@4.17.21
+283 silly decomposeActions extract lodash@4.17.21
+284 silly decomposeActions preinstall lodash@4.17.21
+285 silly decomposeActions build lodash@4.17.21
+286 silly decomposeActions install lodash@4.17.21
+287 silly decomposeActions postinstall lodash@4.17.21
+288 silly decomposeActions finalize lodash@4.17.21
+289 silly decomposeActions refresh-package-json lodash@4.17.21
+290 silly decomposeActions fetch async@2.6.3
+291 silly decomposeActions extract async@2.6.3
+292 silly decomposeActions preinstall async@2.6.3
+293 silly decomposeActions build async@2.6.3
+294 silly decomposeActions install async@2.6.3
+295 silly decomposeActions postinstall async@2.6.3
+296 silly decomposeActions finalize async@2.6.3
+297 silly decomposeActions refresh-package-json async@2.6.3
+298 silly decomposeActions fetch minimist@1.2.6
+299 silly decomposeActions extract minimist@1.2.6
+300 silly decomposeActions preinstall minimist@1.2.6
+301 silly decomposeActions build minimist@1.2.6
+302 silly decomposeActions install minimist@1.2.6
+303 silly decomposeActions postinstall minimist@1.2.6
+304 silly decomposeActions finalize minimist@1.2.6
+305 silly decomposeActions refresh-package-json minimist@1.2.6
+306 silly decomposeActions fetch mkdirp@0.5.6
+307 silly decomposeActions extract mkdirp@0.5.6
+308 silly decomposeActions preinstall mkdirp@0.5.6
+309 silly decomposeActions build mkdirp@0.5.6
+310 silly decomposeActions install mkdirp@0.5.6
+311 silly decomposeActions postinstall mkdirp@0.5.6
+312 silly decomposeActions finalize mkdirp@0.5.6
+313 silly decomposeActions refresh-package-json mkdirp@0.5.6
+314 silly decomposeActions fetch ms@2.1.3
+315 silly decomposeActions extract ms@2.1.3
+316 silly decomposeActions preinstall ms@2.1.3
+317 silly decomposeActions build ms@2.1.3
+318 silly decomposeActions install ms@2.1.3
+319 silly decomposeActions postinstall ms@2.1.3
+320 silly decomposeActions finalize ms@2.1.3
+321 silly decomposeActions refresh-package-json ms@2.1.3
+322 silly decomposeActions fetch debug@3.2.7
+323 silly decomposeActions extract debug@3.2.7
+324 silly decomposeActions preinstall debug@3.2.7
+325 silly decomposeActions build debug@3.2.7
+326 silly decomposeActions install debug@3.2.7
+327 silly decomposeActions postinstall debug@3.2.7
+328 silly decomposeActions finalize debug@3.2.7
+329 silly decomposeActions refresh-package-json debug@3.2.7
+330 silly decomposeActions fetch object-inspect@1.12.0
+331 silly decomposeActions extract object-inspect@1.12.0
+332 silly decomposeActions preinstall object-inspect@1.12.0
+333 silly decomposeActions build object-inspect@1.12.0
+334 silly decomposeActions install object-inspect@1.12.0
+335 silly decomposeActions postinstall object-inspect@1.12.0
+336 silly decomposeActions finalize object-inspect@1.12.0
+337 silly decomposeActions refresh-package-json object-inspect@1.12.0
+338 silly decomposeActions fetch requires-port@1.0.0
+339 silly decomposeActions extract requires-port@1.0.0
+340 silly decomposeActions preinstall requires-port@1.0.0
+341 silly decomposeActions build requires-port@1.0.0
+342 silly decomposeActions install requires-port@1.0.0
+343 silly decomposeActions postinstall requires-port@1.0.0
+344 silly decomposeActions finalize requires-port@1.0.0
+345 silly decomposeActions refresh-package-json requires-port@1.0.0
+346 silly decomposeActions fetch safe-buffer@5.1.2
+347 silly decomposeActions extract safe-buffer@5.1.2
+348 silly decomposeActions preinstall safe-buffer@5.1.2
+349 silly decomposeActions build safe-buffer@5.1.2
+350 silly decomposeActions install safe-buffer@5.1.2
+351 silly decomposeActions postinstall safe-buffer@5.1.2
+352 silly decomposeActions finalize safe-buffer@5.1.2
+353 silly decomposeActions refresh-package-json safe-buffer@5.1.2
+354 silly decomposeActions fetch safer-buffer@2.1.2
+355 silly decomposeActions extract safer-buffer@2.1.2
+356 silly decomposeActions preinstall safer-buffer@2.1.2
+357 silly decomposeActions build safer-buffer@2.1.2
+358 silly decomposeActions install safer-buffer@2.1.2
+359 silly decomposeActions postinstall safer-buffer@2.1.2
+360 silly decomposeActions finalize safer-buffer@2.1.2
+361 silly decomposeActions refresh-package-json safer-buffer@2.1.2
+362 silly decomposeActions fetch iconv-lite@0.6.3
+363 silly decomposeActions extract iconv-lite@0.6.3
+364 silly decomposeActions preinstall iconv-lite@0.6.3
+365 silly decomposeActions build iconv-lite@0.6.3
+366 silly decomposeActions install iconv-lite@0.6.3
+367 silly decomposeActions postinstall iconv-lite@0.6.3
+368 silly decomposeActions finalize iconv-lite@0.6.3
+369 silly decomposeActions refresh-package-json iconv-lite@0.6.3
+370 silly decomposeActions fetch side-channel@1.0.4
+371 silly decomposeActions extract side-channel@1.0.4
+372 silly decomposeActions preinstall side-channel@1.0.4
+373 silly decomposeActions build side-channel@1.0.4
+374 silly decomposeActions install side-channel@1.0.4
+375 silly decomposeActions postinstall side-channel@1.0.4
+376 silly decomposeActions finalize side-channel@1.0.4
+377 silly decomposeActions refresh-package-json side-channel@1.0.4
+378 silly decomposeActions fetch qs@6.10.3
+379 silly decomposeActions extract qs@6.10.3
+380 silly decomposeActions preinstall qs@6.10.3
+381 silly decomposeActions build qs@6.10.3
+382 silly decomposeActions install qs@6.10.3
+383 silly decomposeActions postinstall qs@6.10.3
+384 silly decomposeActions finalize qs@6.10.3
+385 silly decomposeActions refresh-package-json qs@6.10.3
+386 silly decomposeActions fetch supports-color@7.2.0
+387 silly decomposeActions extract supports-color@7.2.0
+388 silly decomposeActions preinstall supports-color@7.2.0
+389 silly decomposeActions build supports-color@7.2.0
+390 silly decomposeActions install supports-color@7.2.0
+391 silly decomposeActions postinstall supports-color@7.2.0
+392 silly decomposeActions finalize supports-color@7.2.0
+393 silly decomposeActions refresh-package-json supports-color@7.2.0
+394 silly decomposeActions fetch whatwg-encoding@2.0.0
+395 silly decomposeActions extract whatwg-encoding@2.0.0
+396 silly decomposeActions preinstall whatwg-encoding@2.0.0
+397 silly decomposeActions build whatwg-encoding@2.0.0
+398 silly decomposeActions install whatwg-encoding@2.0.0
+399 silly decomposeActions postinstall whatwg-encoding@2.0.0
+400 silly decomposeActions finalize whatwg-encoding@2.0.0
+401 silly decomposeActions refresh-package-json whatwg-encoding@2.0.0
+402 silly decomposeActions fetch basic-auth@2.0.1
+403 silly decomposeActions extract basic-auth@2.0.1
+404 silly decomposeActions preinstall basic-auth@2.0.1
+405 silly decomposeActions build basic-auth@2.0.1
+406 silly decomposeActions install basic-auth@2.0.1
+407 silly decomposeActions postinstall basic-auth@2.0.1
+408 silly decomposeActions finalize basic-auth@2.0.1
+409 silly decomposeActions refresh-package-json basic-auth@2.0.1
+410 silly decomposeActions fetch chalk@4.1.2
+411 silly decomposeActions extract chalk@4.1.2
+412 silly decomposeActions preinstall chalk@4.1.2
+413 silly decomposeActions build chalk@4.1.2
+414 silly decomposeActions install chalk@4.1.2
+415 silly decomposeActions postinstall chalk@4.1.2
+416 silly decomposeActions finalize chalk@4.1.2
+417 silly decomposeActions refresh-package-json chalk@4.1.2
+418 silly decomposeActions fetch corser@2.0.1
+419 silly decomposeActions extract corser@2.0.1
+420 silly decomposeActions preinstall corser@2.0.1
+421 silly decomposeActions build corser@2.0.1
+422 silly decomposeActions install corser@2.0.1
+423 silly decomposeActions postinstall corser@2.0.1
+424 silly decomposeActions finalize corser@2.0.1
+425 silly decomposeActions refresh-package-json corser@2.0.1
+426 silly decomposeActions fetch he@1.2.0
+427 silly decomposeActions extract he@1.2.0
+428 silly decomposeActions preinstall he@1.2.0
+429 silly decomposeActions build he@1.2.0
+430 silly decomposeActions install he@1.2.0
+431 silly decomposeActions postinstall he@1.2.0
+432 silly decomposeActions finalize he@1.2.0
+433 silly decomposeActions refresh-package-json he@1.2.0
+434 silly decomposeActions fetch html-encoding-sniffer@3.0.0
+435 silly decomposeActions extract html-encoding-sniffer@3.0.0
+436 silly decomposeActions preinstall html-encoding-sniffer@3.0.0
+437 silly decomposeActions build html-encoding-sniffer@3.0.0
+438 silly decomposeActions install html-encoding-sniffer@3.0.0
+439 silly decomposeActions postinstall html-encoding-sniffer@3.0.0
+440 silly decomposeActions finalize html-encoding-sniffer@3.0.0
+441 silly decomposeActions refresh-package-json html-encoding-sniffer@3.0.0
+442 silly decomposeActions fetch http-proxy@1.18.1
+443 silly decomposeActions extract http-proxy@1.18.1
+444 silly decomposeActions preinstall http-proxy@1.18.1
+445 silly decomposeActions build http-proxy@1.18.1
+446 silly decomposeActions install http-proxy@1.18.1
+447 silly decomposeActions postinstall http-proxy@1.18.1
+448 silly decomposeActions finalize http-proxy@1.18.1
+449 silly decomposeActions refresh-package-json http-proxy@1.18.1
+450 silly decomposeActions fetch mime@1.6.0
+451 silly decomposeActions extract mime@1.6.0
+452 silly decomposeActions preinstall mime@1.6.0
+453 silly decomposeActions build mime@1.6.0
+454 silly decomposeActions install mime@1.6.0
+455 silly decomposeActions postinstall mime@1.6.0
+456 silly decomposeActions finalize mime@1.6.0
+457 silly decomposeActions refresh-package-json mime@1.6.0
+458 silly decomposeActions fetch opener@1.5.2
+459 silly decomposeActions extract opener@1.5.2
+460 silly decomposeActions preinstall opener@1.5.2
+461 silly decomposeActions build opener@1.5.2
+462 silly decomposeActions install opener@1.5.2
+463 silly decomposeActions postinstall opener@1.5.2
+464 silly decomposeActions finalize opener@1.5.2
+465 silly decomposeActions refresh-package-json opener@1.5.2
+466 silly decomposeActions fetch portfinder@1.0.28
+467 silly decomposeActions extract portfinder@1.0.28
+468 silly decomposeActions preinstall portfinder@1.0.28
+469 silly decomposeActions build portfinder@1.0.28
+470 silly decomposeActions install portfinder@1.0.28
+471 silly decomposeActions postinstall portfinder@1.0.28
+472 silly decomposeActions finalize portfinder@1.0.28
+473 silly decomposeActions refresh-package-json portfinder@1.0.28
+474 silly decomposeActions fetch secure-compare@3.0.1
+475 silly decomposeActions extract secure-compare@3.0.1
+476 silly decomposeActions preinstall secure-compare@3.0.1
+477 silly decomposeActions build secure-compare@3.0.1
+478 silly decomposeActions install secure-compare@3.0.1
+479 silly decomposeActions postinstall secure-compare@3.0.1
+480 silly decomposeActions finalize secure-compare@3.0.1
+481 silly decomposeActions refresh-package-json secure-compare@3.0.1
+482 silly decomposeActions fetch union@0.5.0
+483 silly decomposeActions extract union@0.5.0
+484 silly decomposeActions preinstall union@0.5.0
+485 silly decomposeActions build union@0.5.0
+486 silly decomposeActions install union@0.5.0
+487 silly decomposeActions postinstall union@0.5.0
+488 silly decomposeActions finalize union@0.5.0
+489 silly decomposeActions refresh-package-json union@0.5.0
+490 silly decomposeActions fetch url-join@4.0.1
+491 silly decomposeActions extract url-join@4.0.1
+492 silly decomposeActions preinstall url-join@4.0.1
+493 silly decomposeActions build url-join@4.0.1
+494 silly decomposeActions install url-join@4.0.1
+495 silly decomposeActions postinstall url-join@4.0.1
+496 silly decomposeActions finalize url-join@4.0.1
+497 silly decomposeActions refresh-package-json url-join@4.0.1
+498 silly decomposeActions fetch http-server@14.1.0
+499 silly decomposeActions extract http-server@14.1.0
+500 silly decomposeActions preinstall http-server@14.1.0
+501 silly decomposeActions build http-server@14.1.0
+502 silly decomposeActions install http-server@14.1.0
+503 silly decomposeActions postinstall http-server@14.1.0
+504 silly decomposeActions finalize http-server@14.1.0
+505 silly decomposeActions refresh-package-json http-server@14.1.0
+506 silly install executeActions
+507 silly doSerial global-install 312
+508 verbose correctMkdir /Users/jeisonpimentel/Desktop/React/gif-expert-app/C:tmpnodejsnpm-cache/_locks correctMkdir not in flight; initializing
+509 verbose lock using /Users/jeisonpimentel/Desktop/React/gif-expert-app/C:tmpnodejsnpm-cache/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+510 silly doParallel extract 39
+511 silly extract color-name@1.1.4
+512 silly extract color-convert@2.0.1
+513 silly extract ansi-styles@4.3.0
+514 silly extract eventemitter3@4.0.7
+515 silly extract follow-redirects@1.14.9
+516 silly extract function-bind@1.1.1
+517 silly extract has@1.0.3
+518 silly extract has-flag@4.0.0
+519 silly extract has-symbols@1.0.3
+520 silly extract get-intrinsic@1.1.1
+521 silly extract call-bind@1.0.2
+522 silly extract lodash@4.17.21
+523 silly extract async@2.6.3
+524 silly extract minimist@1.2.6
+525 silly extract mkdirp@0.5.6
+526 silly extract ms@2.1.3
+527 silly extract debug@3.2.7
+528 silly extract object-inspect@1.12.0
+529 silly extract requires-port@1.0.0
+530 silly extract safe-buffer@5.1.2
+531 silly extract safer-buffer@2.1.2
+532 silly extract iconv-lite@0.6.3
+533 silly extract side-channel@1.0.4
+534 silly extract qs@6.10.3
+535 silly extract supports-color@7.2.0
+536 silly extract whatwg-encoding@2.0.0
+537 silly extract basic-auth@2.0.1
+538 silly extract chalk@4.1.2
+539 silly extract corser@2.0.1
+540 silly extract he@1.2.0
+541 silly extract html-encoding-sniffer@3.0.0
+542 silly extract http-proxy@1.18.1
+543 silly extract mime@1.6.0
+544 silly extract opener@1.5.2
+545 silly extract portfinder@1.0.28
+546 silly extract secure-compare@3.0.1
+547 silly extract union@0.5.0
+548 silly extract url-join@4.0.1
+549 silly extract http-server@14.1.0
+550 silly tarball trying color-name@~1.1.4 by hash: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+551 silly tarball trying color-convert@^2.0.1 by hash: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==
+552 silly tarball trying ansi-styles@^4.1.0 by hash: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==
+553 silly tarball trying eventemitter3@^4.0.0 by hash: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
+554 silly tarball trying follow-redirects@^1.0.0 by hash: sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==
+555 silly tarball trying function-bind@^1.1.1 by hash: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
+556 silly tarball trying has@^1.0.3 by hash: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
+557 silly tarball trying has-flag@^4.0.0 by hash: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
+558 silly tarball trying has-symbols@^1.0.1 by hash: sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==
+559 silly tarball trying get-intrinsic@^1.0.2 by hash: sha512-kWZrnVM42QCiEA2Ig1bG8zjoIMOgxWwYCEeNdwY6Tv/cOSeGpcoX4pXHfKUxNKVoArnrEr2e9srnAxxGIraS9Q==
+560 silly tarball trying call-bind@^1.0.0 by hash: sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==
+561 silly tarball trying lodash@^4.17.14 by hash: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+562 silly tarball trying async@^2.6.2 by hash: sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
+563 silly tarball trying minimist@^1.2.5 by hash: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
+564 silly tarball trying mkdirp@^0.5.5 by hash: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==
+565 silly tarball trying ms@^2.1.1 by hash: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
+566 silly tarball trying debug@^3.1.1 by hash: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
+567 silly tarball trying object-inspect@^1.9.0 by hash: sha512-Ho2z80bVIvJloH+YzRmpZVQe87+qASmBUKZDWgx9cu+KDrX2ZDH/3tMy+gXbZETVGs2M8YdxObOh7XAtim9Y0g==
+568 silly tarball trying requires-port@^1.0.0 by hash: sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+569 silly tarball trying safe-buffer@5.1.2 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+570 silly tarball trying safer-buffer@>= 2.1.2 < 3.0.0 by hash: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+571 silly tarball trying iconv-lite@0.6.3 by hash: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==
+572 silly tarball trying side-channel@^1.0.4 by hash: sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==
+573 silly tarball trying qs@^6.4.0 by hash: sha512-wr7M2E0OFRfIfJZjKGieI8lBKb7fRCH4Fv5KNPEs7gJ8jadvotdsS08PzOKR7opXhZ/Xkjtt3WF9g38drmyRqQ==
+574 silly tarball trying supports-color@^7.1.0 by hash: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
+575 silly tarball trying whatwg-encoding@^2.0.0 by hash: sha512-p41ogyeMUrw3jWclHWTQg1k05DSVXPLcVxRTYsXUk+ZooOCZLcoYgPZ/HL/D/N+uQPOtcp1me1WhBEaX02mhWg==
+576 silly tarball trying basic-auth@^2.0.1 by hash: sha512-NF+epuEdnUYVlGuhaxbbq+dvJttwLnGY+YixlXlME5KpQ5W3CnXA5cVTneY3SPbPDRkcjMbifrwmFYcClgOZeg==
+577 silly tarball trying chalk@^4.1.2 by hash: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
+578 silly tarball trying corser@^2.0.1 by hash: sha1-jtolLsqrWEDc2XXOuQ2TcMgZ/4c=
+579 silly tarball trying he@^1.2.0 by hash: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
+580 silly tarball trying html-encoding-sniffer@^3.0.0 by hash: sha512-oWv4T4yJ52iKrufjnyZPkrN0CH3QnrUqdB6In1g5Fe1mia8GmF36gnfNySxoZtxD5+NmYw1EElVXiBk93UeskA==
+581 silly tarball trying http-proxy@^1.18.1 by hash: sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
+582 silly tarball trying mime@^1.6.0 by hash: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
+583 silly tarball trying opener@^1.5.1 by hash: sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==
+584 silly tarball trying portfinder@^1.0.28 by hash: sha512-Se+2isanIcEqf2XMHjyUKskczxbPH7dQnlMjXX6+dybayyHvAf/TCgyMRlzf/B6QDhAEFOGes0pzRo3by4AbMA==
+585 silly tarball trying secure-compare@3.0.1 by hash: sha1-8aAymzCLIh+uN7mXTz1XjQypmeM=
+586 silly tarball trying union@~0.5.0 by hash: sha512-N6uOhuW6zO95P3Mel2I2zMsbsanvvtgn6jVqJv4vbVcz/JN0OkL9suomjQGmWtxJQXOCqUJvquc1sMeNz/IwlA==
+587 silly tarball trying url-join@^4.0.1 by hash: sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==
+588 silly tarball trying http-server@latest by hash: sha512-5lYsIcZtf6pdR8tCtzAHTWrAveo4liUlJdWc7YafwK/maPgYHs+VNP6KpCClmUnSorJrARVMXqtT055zBv11Yg==
+589 silly extract color-name@~1.1.4 extracted to /usr/local/lib/node_modules/.staging/color-name-3e864ab8 (318ms)
+590 silly extract ms@^2.1.1 extracted to /usr/local/lib/node_modules/.staging/ms-a1f2ed4b (382ms)
+591 silly extract has-flag@^4.0.0 extracted to /usr/local/lib/node_modules/.staging/has-flag-8ecdfb48 (394ms)
+592 silly extract supports-color@^7.1.0 extracted to /usr/local/lib/node_modules/.staging/supports-color-fe4d1235 (391ms)
+593 silly extract basic-auth@^2.0.1 extracted to /usr/local/lib/node_modules/.staging/basic-auth-d1b3cf7b (395ms)
+594 silly extract secure-compare@3.0.1 extracted to /usr/local/lib/node_modules/.staging/secure-compare-64ea06b1 (393ms)
+595 silly extract ansi-styles@^4.1.0 extracted to /usr/local/lib/node_modules/.staging/ansi-styles-93092c45 (400ms)
+596 silly extract requires-port@^1.0.0 extracted to /usr/local/lib/node_modules/.staging/requires-port-25c50028 (406ms)
+597 silly extract safe-buffer@5.1.2 extracted to /usr/local/lib/node_modules/.staging/safe-buffer-fa070501 (406ms)
+598 silly extract html-encoding-sniffer@^3.0.0 extracted to /usr/local/lib/node_modules/.staging/html-encoding-sniffer-19ce0047 (404ms)
+599 silly extract follow-redirects@^1.0.0 extracted to /usr/local/lib/node_modules/.staging/follow-redirects-dd9dcec1 (414ms)
+600 silly extract color-convert@^2.0.1 extracted to /usr/local/lib/node_modules/.staging/color-convert-b5bde559 (414ms)
+601 silly extract mkdirp@^0.5.5 extracted to /usr/local/lib/node_modules/.staging/mkdirp-fb0e2f1b (415ms)
+602 silly extract safer-buffer@>= 2.1.2 < 3.0.0 extracted to /usr/local/lib/node_modules/.staging/safer-buffer-f57d159c (418ms)
+603 silly extract portfinder@^1.0.28 extracted to /usr/local/lib/node_modules/.staging/portfinder-fb0a1dd3 (415ms)
+604 silly extract corser@^2.0.1 extracted to /usr/local/lib/node_modules/.staging/corser-8b87924f (417ms)
+605 silly extract whatwg-encoding@^2.0.0 extracted to /usr/local/lib/node_modules/.staging/whatwg-encoding-9d44f1d0 (417ms)
+606 silly extract has@^1.0.3 extracted to /usr/local/lib/node_modules/.staging/has-9f0ad95f (421ms)
+607 silly extract chalk@^4.1.2 extracted to /usr/local/lib/node_modules/.staging/chalk-67221483 (423ms)
+608 silly extract opener@^1.5.1 extracted to /usr/local/lib/node_modules/.staging/opener-bea35c8c (422ms)
+609 silly extract eventemitter3@^4.0.0 extracted to /usr/local/lib/node_modules/.staging/eventemitter3-45186f53 (448ms)
+610 silly extract debug@^3.1.1 extracted to /usr/local/lib/node_modules/.staging/debug-c625a11a (448ms)
+611 silly extract function-bind@^1.1.1 extracted to /usr/local/lib/node_modules/.staging/function-bind-06ca11d8 (453ms)
+612 silly extract mime@^1.6.0 extracted to /usr/local/lib/node_modules/.staging/mime-678e3dcb (448ms)
+613 silly extract call-bind@^1.0.0 extracted to /usr/local/lib/node_modules/.staging/call-bind-2fafcfdb (452ms)
+614 silly extract side-channel@^1.0.4 extracted to /usr/local/lib/node_modules/.staging/side-channel-277903d6 (451ms)
+615 silly extract url-join@^4.0.1 extracted to /usr/local/lib/node_modules/.staging/url-join-e4621ee6 (450ms)
+616 silly extract get-intrinsic@^1.0.2 extracted to /usr/local/lib/node_modules/.staging/get-intrinsic-391356c2 (455ms)
+617 silly extract he@^1.2.0 extracted to /usr/local/lib/node_modules/.staging/he-60bce55e (453ms)
+618 silly extract has-symbols@^1.0.1 extracted to /usr/local/lib/node_modules/.staging/has-symbols-2b88a490 (479ms)
+619 silly extract minimist@^1.2.5 extracted to /usr/local/lib/node_modules/.staging/minimist-4f474b32 (520ms)
+620 silly extract qs@^6.4.0 extracted to /usr/local/lib/node_modules/.staging/qs-26ba1eed (551ms)
+621 silly extract http-proxy@^1.18.1 extracted to /usr/local/lib/node_modules/.staging/http-proxy-e5873f17 (549ms)
+622 silly extract http-server@latest extracted to /usr/local/lib/node_modules/.staging/http-server-76b53982 (563ms)
+623 silly extract object-inspect@^1.9.0 extracted to /usr/local/lib/node_modules/.staging/object-inspect-59b7e9ad (599ms)
+624 silly extract union@~0.5.0 extracted to /usr/local/lib/node_modules/.staging/union-5330761c (686ms)
+625 silly extract iconv-lite@0.6.3 extracted to /usr/local/lib/node_modules/.staging/iconv-lite-00ba9aa2 (702ms)
+626 silly extract async@^2.6.2 extracted to /usr/local/lib/node_modules/.staging/async-42dd9fe4 (770ms)
+627 timing npm Completed in 9645ms
+628 error cb() never called!
+629 error This is an error with npm itself. Please report this error at:
+630 error <https://npm.community>
